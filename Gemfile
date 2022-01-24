@@ -35,10 +35,10 @@ gem 'ptools'
 gem 'jquery-rails'
 gem 'webpacker', '>= 4.0.x'
 gem 'retriable'
-gem 'sidekiq'
+gem 'sidekiq', '>= 6.4.0'
 # bookmarks for later, if they are needed
 # gem 'sidekiq-worker-killer'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq-unique-jobs', '>= 7.1.12'
 gem 'redis'
 gem 'request_store'
 
