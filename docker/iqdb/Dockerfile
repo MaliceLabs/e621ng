@@ -1,4 +1,4 @@
-FROM ruby:2.7.3-alpine
+FROM ruby:2.7.5-alpine
 
 ADD https://api.github.com/repos/zwagoth/iqdbs/git/refs/heads/master /tmp/iqdbs_version.json
 COPY iqdb.patch /tmp/iqdb.patch
