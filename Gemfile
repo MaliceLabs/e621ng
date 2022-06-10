@@ -6,7 +6,7 @@ gem "rails", "~> 6.1"
 gem "pg"
 gem "dalli", :platforms => :ruby
 gem "simple_form"
-gem "mechanize"
+gem "mechanize", ">= 2.8.5"
 gem 'active_model_serializers', '~> 0.10.0'
 gem "whenever", :require => false
 gem "sanitize"
