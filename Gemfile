@@ -4,7 +4,7 @@ gem 'dotenv-rails', require: 'dotenv/rails-now'
 
 gem "rails", "~> 6.1"
 gem "pg"
-gem "dalli", :platforms => :ruby
+gem "dalli", ">= 3.2.3", :platforms => :ruby
 gem "simple_form"
 gem "mechanize"
 gem 'active_model_serializers', '~> 0.10.0'
