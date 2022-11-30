@@ -61,7 +61,7 @@ group :production do
 end
 
 group :development do
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.2.3'
 end
 
 group :development, :test do
