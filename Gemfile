@@ -2,12 +2,12 @@ source 'https://rubygems.org/'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 
-gem "rails", "~> 6.1"
+gem "rails", "~> 6.1", ">= 6.1.4.4"
 gem "pg"
 gem "dalli", :platforms => :ruby
 gem "simple_form"
 gem "mechanize"
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'active_model_serializers', '~> 0.10.12'
 gem "whenever", :require => false
 gem "sanitize"
 gem 'ruby-vips'
