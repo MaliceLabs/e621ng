@@ -28,7 +28,7 @@ gem 'daemons'
 gem 'oauth2'
 gem 'bootsnap'
 gem 'addressable'
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 gem 'rakismet'
 gem 'recaptcha', require: "recaptcha/rails"
 gem 'ptools'
