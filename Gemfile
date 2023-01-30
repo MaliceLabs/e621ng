@@ -9,7 +9,7 @@ gem "simple_form"
 gem "mechanize"
 gem 'active_model_serializers', '~> 0.10.0'
 gem "whenever", :require => false
-gem "sanitize"
+gem "sanitize", ">= 6.0.1"
 gem 'ruby-vips'
 gem 'net-sftp'
 gem 'diff-lcs', :require => "diff/lcs/array"
