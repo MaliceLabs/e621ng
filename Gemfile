@@ -2,14 +2,14 @@ source 'https://rubygems.org/'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 
-gem "rails", "~> 6.1"
+gem "rails", "~> 6.1", ">= 6.1.7.3"
 gem "pg"
-gem "dalli", :platforms => :ruby
+gem "dalli", ">= 3.2.3", :platforms => :ruby
 gem "simple_form"
-gem "mechanize"
-gem 'active_model_serializers', '~> 0.10.0'
+gem "mechanize", ">= 2.8.5"
+gem 'active_model_serializers', '~> 0.10.12'
 gem "whenever", :require => false
-gem "sanitize"
+gem "sanitize", ">= 6.0.1"
 gem 'ruby-vips'
 gem 'net-sftp'
 gem 'diff-lcs', :require => "diff/lcs/array"
@@ -25,17 +25,17 @@ gem 'dtext_rb', :git => "https://github.com/zwagoth/dtext_rb.git", branch: "mast
 gem 'cityhash'
 gem 'memoist'
 gem 'daemons'
-gem 'oauth2'
+gem 'oauth2', '>= 1.4.11'
 gem 'bootsnap'
 gem 'addressable'
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 gem 'rakismet'
 gem 'recaptcha', require: "recaptcha/rails"
 gem 'ptools'
 gem 'jquery-rails'
 gem 'webpacker', '>= 4.0.x'
 gem 'retriable'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.0'
 # bookmarks for later, if they are needed
 # gem 'sidekiq-worker-killer'
 gem 'sidekiq-unique-jobs'
@@ -61,7 +61,7 @@ group :production do
 end
 
 group :development do
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.2.3'
 end
 
 group :development, :test do
