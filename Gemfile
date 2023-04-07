@@ -35,7 +35,7 @@ gem 'ptools'
 gem 'jquery-rails'
 gem 'webpacker', '>= 4.0.x'
 gem 'retriable'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.8'
 # bookmarks for later, if they are needed
 # gem 'sidekiq-worker-killer'
 gem 'sidekiq-unique-jobs'
