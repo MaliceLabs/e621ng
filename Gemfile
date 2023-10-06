@@ -1,13 +1,13 @@
 source 'https://rubygems.org/'
 
-gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'dotenv-rails', '>= 2.8.0', require: 'dotenv/rails-now'
 
-gem "rails", "~> 6.1"
+gem "rails", "~> 7.1", ">= 7.1.0"
 gem "pg"
 gem "dalli", :platforms => :ruby
-gem "simple_form"
+gem "simple_form", ">= 5.2.0"
 gem "mechanize"
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'active_model_serializers', '~> 0.10.14'
 gem "whenever", :require => false
 gem "sanitize"
 gem 'ruby-vips'
@@ -20,7 +20,7 @@ gem 'radix62', '~> 1.0.1'
 gem 'streamio-ffmpeg'
 gem 'rubyzip', :require => "zip"
 gem 'twitter'
-gem 'responders'
+gem 'responders', '>= 3.1.0'
 gem 'dtext_rb', :git => "https://github.com/zwagoth/dtext_rb.git", branch: "master", :require => "dtext"
 gem 'cityhash'
 gem 'memoist'
@@ -32,7 +32,7 @@ gem 'httparty'
 gem 'rakismet'
 gem 'recaptcha', require: "recaptcha/rails"
 gem 'ptools'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.5.0'
 gem 'webpacker', '>= 4.0.x'
 gem 'retriable'
 gem 'sidekiq'
