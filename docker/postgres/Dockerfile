@@ -1,4 +1,4 @@
-FROM postgres:12-alpine
+FROM postgres:12.18-alpine
 ARG BUILD_DEPS="git make gcc libc-dev clang llvm"
 
 ADD https://api.github.com/repos/r888888888/test_parser/git/refs/heads/master /tmp/test_parser_version.json
