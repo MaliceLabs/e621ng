@@ -1,15 +1,15 @@
 source 'https://rubygems.org/'
 
-gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'dotenv-rails', '>= 2.8.0', require: 'dotenv/rails-now'
 
-gem "rails", "~> 6.1"
+gem "rails", "~> 7.0", ">= 7.0.8.1"
 gem "pg"
 gem "dalli", :platforms => :ruby
-gem "simple_form"
-gem "mechanize"
-gem 'active_model_serializers', '~> 0.10.0'
+gem "simple_form", ">= 5.2.0"
+gem "mechanize", ">= 2.8.4"
+gem 'active_model_serializers', '~> 0.10.13'
 gem "whenever", :require => false
-gem "sanitize"
+gem "sanitize", ">= 6.0.1"
 gem 'ruby-vips'
 gem 'net-sftp'
 gem 'diff-lcs', :require => "diff/lcs/array"
@@ -20,27 +20,27 @@ gem 'radix62', '~> 1.0.1'
 gem 'streamio-ffmpeg'
 gem 'rubyzip', :require => "zip"
 gem 'twitter'
-gem 'responders'
+gem 'responders', '>= 3.1.0'
 gem 'dtext_rb', :git => "https://github.com/zwagoth/dtext_rb.git", branch: "master", :require => "dtext"
 gem 'cityhash'
 gem 'memoist'
 gem 'daemons'
-gem 'oauth2'
+gem 'oauth2', '>= 1.4.8'
 gem 'bootsnap'
 gem 'addressable'
 gem 'httparty'
 gem 'rakismet'
 gem 'recaptcha', require: "recaptcha/rails"
 gem 'ptools'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.5.0'
 gem 'webpacker', '>= 4.0.x'
 gem 'retriable'
-gem 'sidekiq'
+gem 'sidekiq', '>= 6.4.0'
 # bookmarks for later, if they are needed
 # gem 'sidekiq-worker-killer'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq-unique-jobs', '>= 7.1.33'
 gem 'redis'
-gem 'request_store'
+gem 'request_store', '>= 1.5.1'
 
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
@@ -61,7 +61,7 @@ group :production do
 end
 
 group :development do
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.2.0'
 end
 
 group :development, :test do
