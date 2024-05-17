@@ -78,7 +78,7 @@ group :test do
   gem "ffaker"
   gem "simplecov", :require => false
   gem "timecop"
-  gem "webmock"
+  gem "webmock", ">= 3.15.1"
   gem "minitest-ci"
   gem "mock_redis"
 end
