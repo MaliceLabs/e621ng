@@ -38,7 +38,7 @@ gem 'retriable'
 gem 'sidekiq'
 # bookmarks for later, if they are needed
 # gem 'sidekiq-worker-killer'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq-unique-jobs', '>= 7.1.33'
 gem 'redis'
 gem 'request_store'
 
