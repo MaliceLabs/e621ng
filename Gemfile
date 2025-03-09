@@ -2,7 +2,7 @@ source 'https://rubygems.org/'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 
-gem "rails", "~> 6.1"
+gem "rails", "~> 7.0", ">= 7.0.0"
 gem "pg"
 gem "dalli", :platforms => :ruby
 gem "simple_form"
@@ -35,7 +35,7 @@ gem 'ptools'
 gem 'jquery-rails'
 gem 'webpacker', '>= 4.0.x'
 gem 'retriable'
-gem 'sidekiq'
+gem 'sidekiq', '>= 8.0.0'
 # bookmarks for later, if they are needed
 # gem 'sidekiq-worker-killer'
 gem 'sidekiq-unique-jobs'
