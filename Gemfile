@@ -25,7 +25,7 @@ gem 'dtext_rb', :git => "https://github.com/zwagoth/dtext_rb.git", branch: "mast
 gem 'cityhash'
 gem 'memoist'
 gem 'daemons'
-gem 'oauth2'
+gem 'oauth2', '>= 1.4.8'
 gem 'bootsnap'
 gem 'addressable'
 gem 'httparty'
@@ -42,7 +42,7 @@ gem 'sidekiq-unique-jobs'
 gem 'redis'
 gem 'request_store'
 
-gem 'elasticsearch-model'
+gem 'elasticsearch-model', '>= 7.2.1'
 gem 'elasticsearch-rails'
 
 
